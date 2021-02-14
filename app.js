@@ -11,6 +11,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(3008, () => {
+app.listen(() => {
   console.log(`Server is started `);
 });
